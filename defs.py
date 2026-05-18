@@ -1,0 +1,1 @@
+/home/torsten/projects/macropad/ncr80/defs.py
