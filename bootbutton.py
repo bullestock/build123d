@@ -19,7 +19,7 @@ with BuildPart() as p:
     # depression
     with BuildSketch(p.faces().sort_by(Axis.Z).last):
         RectangleRounded(3.75, 1.75, 0.5)
-    extrude(amount=-0.75, mode=Mode.SUBTRACT)
+    extrude(amount=-0.5, mode=Mode.SUBTRACT)
     #with Locations((0, 0, -17.5)):
     #        Sphere(radius=sr, mode=Mode.SUBTRACT)
     fillet(p.edges().sort_by(Axis.Z)[0], radius=2)
